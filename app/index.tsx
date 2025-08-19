@@ -8,6 +8,7 @@ const router = useRouter()
     return(
         <View>
             <Button title="Personagens" onPress={()=>router.push(`/personagens/`)}/>
+            <Button title="socket" onPress={()=>router.push(`/socket/`)}/>
         </View>
     );
 }
